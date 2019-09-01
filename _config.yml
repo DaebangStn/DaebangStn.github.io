@@ -135,9 +135,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "admin"
+      icon: "fab fa-fw fa-link"
+      url: "https://daebangstn.github.io/admin"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
