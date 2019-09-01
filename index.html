@@ -9,7 +9,7 @@ author_profile: true
 		{% assign page_list = site.pages %}
 		{% for node in page_list %}
 			{% if node.title != null %}
-				{% if node.layout == "category" %}
+				{% if node.layout == "categories" %}
 				<li><a class="category-link {% if page.url == node.url %} active{% endif %}"
 		   		href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
 				{% endif %}
