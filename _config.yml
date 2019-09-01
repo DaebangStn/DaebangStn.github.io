@@ -292,3 +292,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+
+# For local serving
+
+host: 0.0.0.0
+port: 8080
