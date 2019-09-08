@@ -17,6 +17,7 @@ categories: Programming
 
 앞서 ledmodule의 compatible 설정을 바꾸어 주었으면 부팅시 다음과 같은 로그를 볼 수 있다.
 
+
 ```
 ledmodule 43c00000.helloled: Device Tree Probing
 ledmodule 43c00000.helloled: no IRQ found
@@ -50,3 +51,6 @@ Kconfig에서 관련 설정들을 건드릴 수 있다.  하지만 여전히 qem
 >qemu vlan 0 is not connected to host network
 
 [[4]](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1169-xilinx-qemu.pdf)을 참고하여 qemu의 네트워크 설정을 진행하였다.
+
+2019.09.08
+위에 나온 vlan0 로그 메세지는 petalinux-boot에서 default로 사용하는 vlan의 vid가 1이라 발생하는 일이다. 하~나~도 문제될것 없다.
