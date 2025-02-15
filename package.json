@@ -1,0 +1,24 @@
+{
+  "name": "daebangstn.github.io",
+  "version": "1.0.0",
+  "description": "This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaebangStn/DaebangStn.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaebangStn/DaebangStn.github.io/issues"
+  },
+  "homepage": "https://github.com/DaebangStn/DaebangStn.github.io#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.9"
+  }
+}
